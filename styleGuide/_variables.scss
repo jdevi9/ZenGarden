@@ -1,5 +1,6 @@
-$fonts-headline: "arial narrow", Arial, Verdana, sans-serif;
-$fonts-body: verdana, arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Orbitron&family=Roboto&display=swap');
+$fonts-headline: "Orbitron", "Exo", arial, sans-serif;
+$fonts-body: "Roboto", arial, sans-serif;
 $background-color: #daede2;
 $primary: #77c4d3;
 $accent1: #ea2e49;
