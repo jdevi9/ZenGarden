@@ -17,17 +17,17 @@ html {
 }
 
 .bgImg1 {
-  background-image: url("/ZenGarden/images/img1.jpg");
+  background-image: url("/images/img1.jpg");
   min-height: 100%;
 }
 
 .bgImg2 {
-  background-image: url("/ZenGarden/images/img2.jpg");
+  background-image: url("/images/img2.jpg");
   min-height: 100%;
 }
 
 .bgImg3 {
-  background-image: url("/ZenGarden/images/img3.jpg");
+  background-image: url("/images/img3.jpg");
   min-height: 100%;
 }
 
@@ -127,6 +127,19 @@ li {
 li:hover {
   scale: 1.1;
   transform: translate(30px, 0px);
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.zen-resources {
+  margin-left: 40px;
+}
+
+.design-archives {
+  margin-left: 40px;
 }
 
 /*# sourceMappingURL=style-layout.css.map */
