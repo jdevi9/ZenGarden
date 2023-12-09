@@ -98,6 +98,30 @@ li:hover {
   width: auto;
 }
 
+@media only screen and (max-width: 450px) {
+  body {
+    font: 400 15px/1.8 "Roboto", sans-serif;
+  }
+
+
+  h3 {
+    font: 400 20px/1.8 "Orbitron", "Exo", arial, sans-serif;
+  }
+
+
+  header {
+    position: relative;
+  }
+
+
+  .part {
+    margin-top: 150px;
+  }
+
+
+}
+
+
 
   @media only screen and (max-width: 390px) {
     .part {
