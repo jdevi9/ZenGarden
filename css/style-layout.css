@@ -20,18 +20,15 @@ body, html {
 }
 
 .bgImg1 {
-  background-image: url("/images/img1.jpg");
-  min-height: 100%;
+  background-image: url("../images/img1.jpg");
 }
 
 .bgImg2 {
-  background-image: url("/images/img2.jpg");
-  min-height: 100%;
+  background-image: url("../images/img2.jpg");
 }
 
 .bgImg3 {
-  background-image: url("/images/img3.jpg");
-  min-height: 100%;
+  background-image: url("../images/img3.jpg");
 }
 
 header {
@@ -79,7 +76,7 @@ li:hover {
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
-  }
+}
 
 .zen-resources {
   margin-left: 40px;
@@ -90,8 +87,8 @@ li:hover {
 .design-archives {
   margin-left: 40px;
   width: fit-content;
-  padding: 20px;
-
+  pad: 20px;
+}
 
 .info {
   color: white;
@@ -101,20 +98,6 @@ li:hover {
   width: auto;
 }
 
-@media only screen and (max-width: 450px) {
-  body {
-    font: 400 15px/1.8 "Roboto", sans-serif;
-  }
-  h3 {
-    font: 400 20px/1.8 "Orbitron", "Exo", arial, sans-serif;
-  }
-  header {
-    position: relative;
-  }
-  .part {
-    margin-top: 150px;
-  }
-}
 @media only screen and (max-width: 390px) {
   .part {
     margin-top: 200px;
