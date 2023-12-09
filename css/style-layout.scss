@@ -1,155 +1,103 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2&family=Orbitron&family=Roboto&display=swap");
-*
+
 body, html {
-    height: 100%;
-    margin: 0;
-    font: 400 22px/1.8 "Roboto", sans-serif;
-    color: #777;
-  }
-  
-  .bgImg1, .bgImg2, .bgImg3 {
-    position: relative;
-    opacity: 0.65;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-  }
-  .bgImg1 {
-    background-image: url("/images/img1.jpg");
-    min-height: 100%;
-  }
-  
-  .bgImg2 {
-    background-image: url("/images/img2.jpg");
-    min-height: 100%;
-  }
-  
-  .bgImg3 {
-    background-image: url("/images/img3.jpg");
-    min-height: 100%;
-  }
-  
-  header {
-    position: absolute;
-    left: 0;
-    width: -webkit-fill-available;
-    text-align: center;
-    background: linear-gradient(to right, #0598ce, #2776EA);
-    color: #fff;
-    padding: 18px;
-    font: 400 28px/1.8 "Orbitron", "Exo", arial, sans-serif;
-    opacity: 75%;
-  } 
-  h3 {
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font: 400 28px/1.8 "Orbitron", "Exo", arial, sans-serif;
-    font-weight: bold;
-    color: white;
-  }
+  height: 100%;
+  margin: 0;
+  font: 400 22px/1.8 "Roboto", sans-serif;
+  color: #777;
+}
 
-  .intro{
-    color: white;
-    padding: 50px 80px;
-    text-align: justify;
-    background: linear-gradient(to right, #0598ce, #2776EA);
-    opacity: 55%;
-  }
-  .part{
-    color: white;
-    padding: 50px 80px;
-    text-align: justify;
-    background: linear-gradient(to right, #0598ce, #2776EA);
-    opacity: 55%;
-    top: 40%;
-  }
-  .req{
-    color: white;
-    padding: 50px 80px;
-    text-align: justify;
-    background: linear-gradient(to right, #0598ce, #2776EA);
-    opacity: 55%;
-    top: 40%;
-  }
-  .explanation{
-    color: white;
-    padding: 50px 80px;
-    text-align: justify;
-    position: absolute;
-    left: 0;
-    top: 30%;
-    width: fit-content;
-    background: linear-gradient(to right, #0598ce, #2776EA);
-  }
-  .benefits{
-    color: white;
-    text-align: center;
-    padding: 50px 80px;
-    text-align: justify;
-    position: absolute;
-    left: 0;
-    top: 30%;
-    width: fit-content;
-    background: linear-gradient(to right, #0598ce, #2776EA);
-  }
-  .info{
-    color: white;
-    padding: 50px 80px;
-    text-align: justify;
-    background: linear-gradient(to right, #0598ce, #2776EA);
-    opacity: 55%;
-    width: auto;
-  }
-  a{
-    color: black;
-    transition: all 0.3s ease-in-out;
-  }
-    a:hover{
-    color: white;
-    scale: 1.1;
-    transform: translate(30px, 0px);
-  }
-  li{
-    transition: all 0.3s ease-in-out;
-  }
-  li:hover{
-    scale: 1.1;
-    transform: translate(30px, 0px);
-  }
+.section-wrapper {
+  margin-bottom: 20px; /* Adjust margin to create space between sections */
+}
 
-  .wrapper {
-    display: flex;
-    flex-wrap: wrap;
-  }
+.bgImg1, .bgImg2, .bgImg3 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
 
-  .zen-resources {
-    margin-left: 40px;
-  }
+.bgImg1 {
+  background-image: url("/images/img1.jpg");
+}
 
-  .design-archives {
-    margin-left: 40px;
-  }
+.bgImg2 {
+  background-image: url("/images/img2.jpg");
+}
 
-  @media only screen and (max-width: 450px) {
-    body {
-      font: 400 15px/1.8 "Roboto", sans-serif;
-    }
+.bgImg3 {
+  background-image: url("/images/img3.jpg");
+}
 
-    h3 {
-      font: 400 20px/1.8 "Orbitron", "Exo", arial, sans-serif;
-    }
+header {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(to right, #0598ce, #2776EA);
+  color: #fff;
+  padding: 18px;
+  font: 400 28px/1.8 "Orbitron", "Exo", arial, sans-serif;
+  opacity: 75%;
+  width: fit-content;
+}
 
-    header {
-      position: relative;
-    }
+.intro, .part, .explanation, .benefits, .req {
+  color: white;
+  text-align: justify;
+  background: linear-gradient(to right, #0598ce, #2776EA);
+  width: fit-content;
+  padding: 20px;
+}
 
-    .part {
-      margin-top: 150px;
-    }
+a {
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
 
-  }
+a:hover {
+  color: white;
+  scale: 1.1;
+  transform: translate(30px, 0px);
+}
+
+li {
+  transition: all 0.3s ease-in-out;
+}
+
+li:hover {
+  scale: 1.1;
+  transform: translate(30px, 0px);
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.zen-resources {
+  margin-left: 40px;
+  width: fit-content;
+  padding: 20px;
+}
+
+.design-archives {
+  margin-left: 40px;
+  width: fit-content;
+  pad: 20px;
+}
+.info {
+  color: white;
+  padding: 50px 80px;
+  text-align: justify;
+  background: linear-gradient(to right, #0598ce, #2776EA);
+  width: auto;
+}
+
 
   @media only screen and (max-width: 390px) {
     .part {
