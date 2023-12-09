@@ -1,112 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2&family=Orbitron&family=Roboto&display=swap");
-* body,
-html {
+body, html {
   height: 100%;
   margin: 0;
   font: 400 22px/1.8 "Roboto", sans-serif;
   color: #777;
 }
 
+.section-wrapper {
+  margin-bottom: 20px; /* Adjust margin to create space between sections */
+}
+
 .bgImg1, .bgImg2, .bgImg3 {
   position: relative;
-  opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
 .bgImg1 {
-  background-image: url("/ZenGarden/images/img1.jpg");
-  min-height: 100%;
+  background-image: url("/images/img1.jpg");
 }
 
 .bgImg2 {
-  background-image: url("/ZenGarden/images/img2.jpg");
-  min-height: 100%;
+  background-image: url("/images/img2.jpg");
 }
 
 .bgImg3 {
-  background-image: url("/ZenGarden/images/img3.jpg");
-  min-height: 100%;
+  background-image: url("/images/img3.jpg");
 }
 
 header {
   position: absolute;
   left: 0;
-  width: -webkit-fill-available;
+  width: 100%;
   text-align: center;
   background: linear-gradient(to right, #0598ce, #2776EA);
   color: #fff;
   padding: 18px;
   font: 400 28px/1.8 "Orbitron", "Exo", arial, sans-serif;
   opacity: 75%;
-}
-
-h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 400 28px/1.8 "Orbitron", "Exo", arial, sans-serif;
-  font-weight: bold;
-  color: white;
-}
-
-.intro {
-  color: white;
-  padding: 50px 80px;
-  text-align: justify;
-  background: linear-gradient(to right, #0598ce, #2776EA);
-  opacity: 55%;
-}
-
-.part {
-  color: white;
-  padding: 50px 80px;
-  text-align: justify;
-  background: linear-gradient(to right, #0598ce, #2776EA);
-  opacity: 55%;
-  top: 40%;
-}
-
-.req {
-  color: white;
-  padding: 50px 80px;
-  text-align: justify;
-  background: linear-gradient(to right, #0598ce, #2776EA);
-  opacity: 55%;
-  top: 40%;
-}
-
-.explanation {
-  color: white;
-  padding: 50px 80px;
-  text-align: justify;
-  position: absolute;
-  left: 0;
-  top: 30%;
   width: fit-content;
-  background: linear-gradient(to right, #0598ce, #2776EA);
 }
 
-.benefits {
+.intro, .part, .explanation, .benefits, .req {
   color: white;
-  text-align: center;
-  padding: 50px 80px;
   text-align: justify;
-  position: absolute;
-  left: 0;
-  top: 30%;
+  background: linear-gradient(to right, #0598ce, #2776EA);
   width: fit-content;
-  background: linear-gradient(to right, #0598ce, #2776EA);
-}
-
-.info {
-  color: white;
-  padding: 50px 80px;
-  text-align: justify;
-  background: linear-gradient(to right, #0598ce, #2776EA);
-  opacity: 55%;
-  width: auto;
+  padding: 20px;
 }
 
 a {
@@ -127,6 +70,32 @@ li {
 li:hover {
   scale: 1.1;
   transform: translate(30px, 0px);
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.zen-resources {
+  margin-left: 40px;
+  width: fit-content;
+  padding: 20px;
+}
+
+.design-archives {
+  margin-left: 40px;
+  width: fit-content;
+  pad: 20px;
+}
+
+.info {
+  color: white;
+  padding: 50px 80px;
+  text-align: justify;
+  background: linear-gradient(to right, #0598ce, #2776EA);
+  width: auto;
 }
 
 /*# sourceMappingURL=style-layout.css.map */
