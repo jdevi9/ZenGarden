@@ -97,3 +97,10 @@ li:hover {
   background: linear-gradient(to right, #0598ce, #2776EA);
   width: auto;
 }
+
+
+  @media only screen and (max-width: 390px) {
+    .part {
+      margin-top: 200px;
+    }
+  }
